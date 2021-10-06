@@ -1,0 +1,31 @@
+<!DOCTYPE html> 
+ <head> 
+ <title> Użycie fukcji </title> 
+ <meta charset="utf-8"> 
+ </head> 
+<body>
+ <div style="color:navy;font-size:50px;">
+ <script language="JavaScript">
+ var a=parseFloat(prompt("a=",""));
+ var b=parseFloat(prompt("b=",""));
+
+ function suma_wil(a, b) {
+ return a + b;
+ }
+ function odejmowanie_wil(a, b) {
+ return a - b;
+ }
+ function mnozenie_wil(a, b) {
+ return a * b;
+ }
+ function od_kwadratu_wil(a, b) {
+ return (a-b) * (a+b);
+ }
+ function reszta_z_dzielenia_a_przez_b_wil(a, b) {
+ return a % b;
+ }
+document.write("suma="+suma_wil(a,b)+"<br>" +"odejmowanie="+odejmowanie_wil(a,b)+"<br>" +"mnozenie="+mnozenie_wil(a,b)+"<br>" +"odejmowanie kwadratowe="+od_kwadratu_wil(a,b)+"<br>" +"reszta z dzielenia="+reszta_z_dzielenia_a_przez_b_wil(a,b)+"<br>");
+</script>
+</div>
+</body>
+</html>
