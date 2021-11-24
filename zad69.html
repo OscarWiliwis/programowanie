@@ -1,0 +1,33 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="author" content="Oscar Wiliwis">
+</head>
+<body>
+<div style="color:red;font-size:50px;">
+<script language="JavaScript">
+x=10%4+5;
+y=10%6+20;
+for(i = 1; i<=y; i++)
+{
+document.write("*");
+}
+for(i = 1; i<=x; i++)
+{
+document.write("<br>*");
+for(j = 1; j<=x; j++)
+{
+document.write("<span style=\"margin-right:" +x*9.5+";\">&nbsp</span>");
+}
+document.write("*");
+}
+document.write("<br>");
+for(i = 1; i<=y; i++)
+{
+document.write("*");
+}
+document.write("&nbsp");
+</script>
+</div>
+</body>
+</html>
